@@ -1,0 +1,708 @@
+十一月 12, 2018 10:26:29 上午 org.eclipse.jetty.util.log.Log initialized
+信息: Logging initialized @6821ms to org.eclipse.jetty.util.log.JavaUtilLog
+十一月 12, 2018 10:26:29 上午 winstone.Logger logInternal
+信息: Beginning extraction from war file
+十一月 12, 2018 10:27:33 上午 org.eclipse.jetty.server.handler.ContextHandler setContextPath
+警告: Empty contextPath
+十一月 12, 2018 10:27:33 上午 org.eclipse.jetty.server.Server doStart
+信息: jetty-9.4.z-SNAPSHOT; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_144-b01
+十一月 12, 2018 10:27:33 上午 org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+信息: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+十一月 12, 2018 10:27:34 上午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: DefaultSessionIdManager workerName=node0
+十一月 12, 2018 10:27:34 上午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: No SessionScavenger set, using defaults
+十一月 12, 2018 10:27:34 上午 org.eclipse.jetty.server.session.HouseKeeper startScavenging
+信息: node0 Scavenging every 600000ms
+十一月 12, 2018 10:27:34 上午 org.eclipse.jetty.server.handler.ContextHandler doStart
+信息: Started w.@b01b12{Jenkins v2.138.3,/,file:///E:/%E8%BF%85%E9%9B%B7%E4%B8%8B%E8%BD%BD/jenkins/war/,AVAILABLE}{E:\迅雷下载\jenkins\war}
+十一月 12, 2018 10:27:34 上午 org.eclipse.jetty.server.AbstractConnector doStart
+信息: Started ServerConnector@191009c{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+十一月 12, 2018 10:27:34 上午 org.eclipse.jetty.server.Server doStart
+信息: Started @71806ms
+十一月 12, 2018 10:27:34 上午 winstone.Logger logInternal
+信息: Winstone Servlet Engine v4.0 running: controlPort=disabled
+十一月 12, 2018 10:27:37 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+十一月 12, 2018 10:27:37 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+十一月 12, 2018 10:27:43 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+十一月 12, 2018 10:27:43 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+十一月 12, 2018 10:27:43 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+十一月 12, 2018 10:27:46 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+十一月 12, 2018 10:27:46 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 12, 2018 10:27:47 上午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@ff9609: display name [Root WebApplicationContext]; startup date [Mon Nov 12 10:27:47 CST 2018]; root of context hierarchy
+十一月 12, 2018 10:27:47 上午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@ff9609]: org.springframework.beans.factory.support.DefaultListableBeanFactory@180db69
+十一月 12, 2018 10:27:47 上午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@180db69: defining beans [authenticationManager]; root of factory hierarchy
+十一月 12, 2018 10:27:48 上午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@4496c2: display name [Root WebApplicationContext]; startup date [Mon Nov 12 10:27:48 CST 2018]; root of context hierarchy
+十一月 12, 2018 10:27:48 上午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@4496c2]: org.springframework.beans.factory.support.DefaultListableBeanFactory@12b4172
+十一月 12, 2018 10:27:48 上午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@12b4172: defining beans [filter,legacy]; root of factory hierarchy
+十一月 12, 2018 10:27:48 上午 jenkins.install.SetupWizard init
+信息: 
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+2cc0f0095d4941b08eefc2a3d765eaef
+
+This may also be found at: E:\迅雷下载\jenkins\secrets\initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+十一月 12, 2018 10:29:41 上午 hudson.model.UpdateSite updateData
+信息: Obtained the latest update center data file for UpdateSource default
+十一月 12, 2018 10:29:44 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+十一月 12, 2018 10:29:44 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 117,813 ms
+十一月 12, 2018 10:30:14 上午 hudson.model.UpdateSite updateData
+信息: Obtained the latest update center data file for UpdateSource default
+十一月 12, 2018 10:30:15 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+十一月 12, 2018 10:30:15 上午 hudson.WebAppMain$3 run
+信息: Jenkins is fully up and running
+十一月 12, 2018 2:07:24 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started telemetry collection
+十一月 12, 2018 2:07:24 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished telemetry collection. 92 ms
+十一月 12, 2018 2:33:39 下午 javax.jmdns.impl.tasks.state.DNSStateTask run
+警告: Renewer(DESKTOP-RITLUUL.local.).run() exception 
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.TwoStacksPlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at javax.jmdns.impl.JmDNSImpl.send(JmDNSImpl.java:1537)
+	at javax.jmdns.impl.tasks.state.DNSStateTask.run(DNSStateTask.java:131)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+十一月 12, 2018 2:33:39 下午 javax.jmdns.impl.JmDNSImpl __recover
+警告: RECOVERING
+十一月 12, 2018 2:33:39 下午 javax.jmdns.impl.tasks.state.DNSStateTask run
+警告: Canceler(DESKTOP-RITLUUL.local.).run() exception 
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.TwoStacksPlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at javax.jmdns.impl.JmDNSImpl.send(JmDNSImpl.java:1537)
+	at javax.jmdns.impl.tasks.state.DNSStateTask.run(DNSStateTask.java:131)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+十一月 12, 2018 2:33:44 下午 javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForCanceled
+警告: Wait for canceled timed out: DNS: DESKTOP-RITLUUL.local. state: canceling 1 task: null
+十一月 12, 2018 2:33:44 下午 javax.jmdns.impl.JmDNSImpl __recover
+警告: DESKTOP-RITLUUL.local.recover() Could not recover we are Down!
+十一月 13, 2018 8:56:42 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Fingerprint cleanup
+十一月 13, 2018 8:56:42 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Workspace clean-up
+十一月 13, 2018 8:56:42 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Fingerprint cleanup. 749 ms
+十一月 13, 2018 8:56:42 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Workspace clean-up. 745 ms
+十一月 13, 2018 10:27:40 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 13, 2018 10:27:40 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 70 ms
+十一月 13, 2018 1:51:56 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started telemetry collection
+十一月 13, 2018 1:51:56 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished telemetry collection. 10 ms
+十一月 13, 2018 5:34:00 下午 org.eclipse.jetty.util.log.Log initialized
+信息: Logging initialized @106371ms to org.eclipse.jetty.util.log.JavaUtilLog
+十一月 13, 2018 5:34:17 下午 winstone.Logger logInternal
+信息: Beginning extraction from war file
+十一月 13, 2018 5:34:24 下午 org.eclipse.jetty.server.handler.ContextHandler setContextPath
+警告: Empty contextPath
+十一月 13, 2018 5:34:27 下午 org.eclipse.jetty.server.Server doStart
+信息: jetty-9.4.z-SNAPSHOT; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_144-b01
+十一月 13, 2018 5:35:27 下午 org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+信息: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+十一月 13, 2018 5:35:29 下午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: DefaultSessionIdManager workerName=node0
+十一月 13, 2018 5:35:29 下午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: No SessionScavenger set, using defaults
+十一月 13, 2018 5:35:29 下午 org.eclipse.jetty.server.session.HouseKeeper startScavenging
+信息: node0 Scavenging every 660000ms
+十一月 13, 2018 5:35:47 下午 org.eclipse.jetty.server.handler.ContextHandler doStart
+信息: Started w.@c1b2d2{Jenkins v2.138.3,/,file:///E:/%E8%BF%85%E9%9B%B7%E4%B8%8B%E8%BD%BD/jenkins/war/,AVAILABLE}{E:\迅雷下载\jenkins\war}
+十一月 13, 2018 5:35:48 下午 org.eclipse.jetty.server.AbstractConnector doStart
+信息: Started ServerConnector@1be3395{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+十一月 13, 2018 5:35:48 下午 org.eclipse.jetty.server.Server doStart
+信息: Started @215001ms
+十一月 13, 2018 5:35:48 下午 winstone.Logger logInternal
+信息: Winstone Servlet Engine v4.0 running: controlPort=disabled
+十一月 13, 2018 5:36:18 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+十一月 13, 2018 5:36:19 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+十一月 13, 2018 5:36:43 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+十一月 13, 2018 5:36:43 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+十一月 13, 2018 5:36:43 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+十一月 13, 2018 5:36:46 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+十一月 13, 2018 5:36:48 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 13, 2018 5:36:52 下午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@6d8f6a: display name [Root WebApplicationContext]; startup date [Tue Nov 13 17:36:52 CST 2018]; root of context hierarchy
+十一月 13, 2018 5:36:52 下午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@6d8f6a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1a135f6
+十一月 13, 2018 5:36:52 下午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a135f6: defining beans [authenticationManager]; root of factory hierarchy
+十一月 13, 2018 5:36:53 下午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@17df449: display name [Root WebApplicationContext]; startup date [Tue Nov 13 17:36:53 CST 2018]; root of context hierarchy
+十一月 13, 2018 5:36:53 下午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@17df449]: org.springframework.beans.factory.support.DefaultListableBeanFactory@13be757
+十一月 13, 2018 5:36:53 下午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13be757: defining beans [filter,legacy]; root of factory hierarchy
+十一月 13, 2018 5:36:53 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+十一月 13, 2018 5:36:53 下午 hudson.WebAppMain$3 run
+信息: Jenkins is fully up and running
+十一月 13, 2018 5:39:12 下午 hudson.model.UpdateSite updateData
+信息: Obtained the latest update center data file for UpdateSource default
+十一月 13, 2018 5:39:17 下午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+十一月 13, 2018 5:39:17 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 148,595 ms
+十一月 14, 2018 8:50:30 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Workspace clean-up
+十一月 14, 2018 8:50:31 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Workspace clean-up. 218 ms
+十一月 14, 2018 8:51:59 上午 javax.jmdns.impl.tasks.state.DNSStateTask run
+警告: Renewer(DESKTOP-RITLUUL.local.).run() exception 
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.TwoStacksPlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at javax.jmdns.impl.JmDNSImpl.send(JmDNSImpl.java:1537)
+	at javax.jmdns.impl.tasks.state.DNSStateTask.run(DNSStateTask.java:131)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+十一月 14, 2018 8:52:00 上午 javax.jmdns.impl.JmDNSImpl __recover
+警告: RECOVERING
+十一月 14, 2018 8:52:00 上午 javax.jmdns.impl.tasks.state.DNSStateTask run
+警告: Canceler(DESKTOP-RITLUUL.local.).run() exception 
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.TwoStacksPlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at javax.jmdns.impl.JmDNSImpl.send(JmDNSImpl.java:1537)
+	at javax.jmdns.impl.tasks.state.DNSStateTask.run(DNSStateTask.java:131)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+十一月 14, 2018 8:52:05 上午 javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForCanceled
+警告: Wait for canceled timed out: DNS: DESKTOP-RITLUUL.local. state: canceling 1 task: null
+十一月 14, 2018 8:52:10 上午 javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForCanceled
+警告: Wait for canceled timed out: DNS: DESKTOP-RITLUUL.local. state: canceling 1 task: null
+十一月 14, 2018 8:52:15 上午 javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForCanceled
+警告: Wait for canceled timed out: DNS: DESKTOP-RITLUUL.local. state: canceling 1 task: null
+十一月 14, 2018 8:52:20 上午 javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForCanceled
+警告: Wait for canceled timed out: DNS: DESKTOP-RITLUUL.local. state: canceling 1 task: null
+十一月 14, 2018 8:52:20 上午 javax.jmdns.impl.JmDNSImpl __recover
+警告: DESKTOP-RITLUUL.local.recover() Could not recover we are Down!
+十一月 14, 2018 11:09:44 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Fingerprint cleanup
+十一月 14, 2018 11:09:44 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Fingerprint cleanup. 5 ms
+十一月 14, 2018 12:03:17 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started telemetry collection
+十一月 14, 2018 12:03:19 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished telemetry collection. 2,158 ms
+十一月 14, 2018 5:36:38 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 14, 2018 5:36:38 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 14 ms
+十一月 15, 2018 8:53:01 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Workspace clean-up
+十一月 15, 2018 8:53:02 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Workspace clean-up. 598 ms
+十一月 15, 2018 11:09:33 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Fingerprint cleanup
+十一月 15, 2018 11:09:33 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Fingerprint cleanup. 1 ms
+十一月 15, 2018 12:03:06 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started telemetry collection
+十一月 15, 2018 12:03:19 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished telemetry collection. 12,832 ms
+十一月 15, 2018 5:36:32 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 15, 2018 5:38:18 下午 hudson.model.UpdateSite updateData
+信息: Obtained the latest update center data file for UpdateSource default
+十一月 15, 2018 5:38:38 下午 hudson.model.DownloadService$Downloadable updateNow
+警告: No tool installer metadata found for hudson.tasks.Maven.MavenInstaller
+十一月 15, 2018 5:38:38 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 126,522 ms
+十一月 16, 2018 8:53:40 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Workspace clean-up
+十一月 16, 2018 8:53:40 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Workspace clean-up. 15 ms
+十一月 16, 2018 11:09:27 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Fingerprint cleanup
+十一月 16, 2018 11:09:27 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Fingerprint cleanup. 4 ms
+十一月 16, 2018 12:02:59 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started telemetry collection
+十一月 16, 2018 12:03:12 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished telemetry collection. 12,935 ms
+十一月 16, 2018 5:36:22 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 16, 2018 5:36:43 下午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+十一月 16, 2018 5:36:43 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 21,363 ms
+十一月 16, 2018 10:14:16 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Workspace clean-up
+十一月 16, 2018 10:14:16 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Workspace clean-up. 79 ms
+十一月 17, 2018 1:41:55 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started telemetry collection
+十一月 17, 2018 1:41:55 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Fingerprint cleanup
+十一月 17, 2018 1:41:55 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Fingerprint cleanup. 610 ms
+十一月 17, 2018 1:41:58 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished telemetry collection. 3,125 ms
+十一月 17, 2018 5:36:09 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 17, 2018 5:36:21 下午 hudson.model.UpdateSite updateData
+信息: Obtained the latest update center data file for UpdateSource default
+十一月 17, 2018 5:36:22 下午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+十一月 17, 2018 5:36:22 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 12,649 ms
+十一月 17, 2018 10:14:10 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Workspace clean-up
+十一月 17, 2018 10:14:10 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Workspace clean-up. 4 ms
+十一月 18, 2018 11:26:45 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Fingerprint cleanup
+十一月 18, 2018 11:26:46 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Fingerprint cleanup. 1,285 ms
+十一月 18, 2018 1:13:10 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started telemetry collection
+十一月 18, 2018 1:13:10 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished telemetry collection. 10 ms
+十一月 18, 2018 5:35:47 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 18, 2018 5:35:49 下午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+十一月 18, 2018 5:35:49 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 1,220 ms
+十一月 18, 2018 9:27:55 下午 org.eclipse.jetty.util.log.Log initialized
+信息: Logging initialized @143344ms to org.eclipse.jetty.util.log.JavaUtilLog
+十一月 18, 2018 9:27:55 下午 winstone.Logger logInternal
+信息: Beginning extraction from war file
+十一月 18, 2018 9:27:56 下午 org.eclipse.jetty.server.handler.ContextHandler setContextPath
+警告: Empty contextPath
+十一月 18, 2018 9:27:56 下午 org.eclipse.jetty.server.Server doStart
+信息: jetty-9.4.z-SNAPSHOT; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_144-b01
+十一月 18, 2018 9:30:09 下午 org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+信息: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+十一月 18, 2018 9:30:18 下午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: DefaultSessionIdManager workerName=node0
+十一月 18, 2018 9:30:18 下午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: No SessionScavenger set, using defaults
+十一月 18, 2018 9:30:19 下午 org.eclipse.jetty.server.session.HouseKeeper startScavenging
+信息: node0 Scavenging every 600000ms
+十一月 18, 2018 9:30:55 下午 org.eclipse.jetty.server.handler.ContextHandler doStart
+信息: Started w.@c1b2d2{Jenkins v2.138.3,/,file:///E:/%E8%BF%85%E9%9B%B7%E4%B8%8B%E8%BD%BD/jenkins/war/,AVAILABLE}{E:\迅雷下载\jenkins\war}
+十一月 18, 2018 9:30:57 下午 org.eclipse.jetty.server.AbstractConnector doStart
+信息: Started ServerConnector@1be3395{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+十一月 18, 2018 9:30:57 下午 org.eclipse.jetty.server.Server doStart
+信息: Started @325931ms
+十一月 18, 2018 9:30:57 下午 winstone.Logger logInternal
+信息: Winstone Servlet Engine v4.0 running: controlPort=disabled
+十一月 18, 2018 9:31:26 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+十一月 18, 2018 9:31:26 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+十一月 18, 2018 9:31:41 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+十一月 18, 2018 9:31:41 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+十一月 18, 2018 9:31:41 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+十一月 18, 2018 9:31:45 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+十一月 18, 2018 9:31:46 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 18, 2018 9:31:52 下午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@f1c03d: display name [Root WebApplicationContext]; startup date [Sun Nov 18 21:31:52 CST 2018]; root of context hierarchy
+十一月 18, 2018 9:31:52 下午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@f1c03d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6afcd1
+十一月 18, 2018 9:31:52 下午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6afcd1: defining beans [authenticationManager]; root of factory hierarchy
+十一月 18, 2018 9:31:52 下午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@a4330d: display name [Root WebApplicationContext]; startup date [Sun Nov 18 21:31:52 CST 2018]; root of context hierarchy
+十一月 18, 2018 9:31:52 下午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@a4330d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@13150e5
+十一月 18, 2018 9:31:52 下午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13150e5: defining beans [filter,legacy]; root of factory hierarchy
+十一月 18, 2018 9:31:53 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+十一月 18, 2018 9:31:53 下午 hudson.WebAppMain$3 run
+信息: Jenkins is fully up and running
+十一月 18, 2018 9:32:02 下午 hudson.model.UpdateSite updateData
+信息: Obtained the latest update center data file for UpdateSource default
+十一月 18, 2018 9:32:05 下午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+十一月 18, 2018 9:32:05 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 19,090 ms
+十一月 18, 2018 10:20:19 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Fingerprint cleanup
+十一月 18, 2018 10:20:19 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Fingerprint cleanup. 4 ms
+十一月 19, 2018 9:05:39 上午 javax.jmdns.impl.tasks.state.DNSStateTask run
+警告: Renewer(DESKTOP-RITLUUL.local.).run() exception 
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.TwoStacksPlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at javax.jmdns.impl.JmDNSImpl.send(JmDNSImpl.java:1537)
+	at javax.jmdns.impl.tasks.state.DNSStateTask.run(DNSStateTask.java:131)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+十一月 19, 2018 9:05:39 上午 javax.jmdns.impl.JmDNSImpl __recover
+警告: RECOVERING
+十一月 19, 2018 9:05:39 上午 javax.jmdns.impl.tasks.state.DNSStateTask run
+警告: Canceler(DESKTOP-RITLUUL.local.).run() exception 
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.TwoStacksPlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at javax.jmdns.impl.JmDNSImpl.send(JmDNSImpl.java:1537)
+	at javax.jmdns.impl.tasks.state.DNSStateTask.run(DNSStateTask.java:131)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+十一月 19, 2018 9:05:44 上午 javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForCanceled
+警告: Wait for canceled timed out: DNS: DESKTOP-RITLUUL.local. state: canceling 1 task: null
+十一月 19, 2018 9:05:49 上午 javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForCanceled
+警告: Wait for canceled timed out: DNS: DESKTOP-RITLUUL.local. state: canceling 1 task: null
+十一月 19, 2018 9:05:54 上午 javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForCanceled
+警告: Wait for canceled timed out: DNS: DESKTOP-RITLUUL.local. state: canceling 1 task: null
+十一月 19, 2018 9:05:59 上午 javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForCanceled
+警告: Wait for canceled timed out: DNS: DESKTOP-RITLUUL.local. state: canceling 1 task: null
+十一月 19, 2018 9:05:59 上午 javax.jmdns.impl.JmDNSImpl __recover
+警告: DESKTOP-RITLUUL.local.recover() Could not recover we are Down!
+十一月 19, 2018 9:10:15 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Workspace clean-up
+十一月 19, 2018 9:10:15 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Workspace clean-up. 78 ms
+十一月 20, 2018 8:53:20 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started telemetry collection
+十一月 20, 2018 8:53:20 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Fingerprint cleanup
+十一月 20, 2018 8:53:20 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 20, 2018 8:53:20 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Fingerprint cleanup. 157 ms
+十一月 20, 2018 8:53:33 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 13,063 ms
+十一月 20, 2018 8:53:35 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished telemetry collection. 14,532 ms
+十一月 20, 2018 9:10:08 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Workspace clean-up
+十一月 20, 2018 9:10:08 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Workspace clean-up. 0 ms
+十一月 21, 2018 8:52:38 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 21, 2018 8:52:38 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Fingerprint cleanup
+十一月 21, 2018 8:52:38 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started telemetry collection
+十一月 21, 2018 8:52:39 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Fingerprint cleanup. 1,000 ms
+十一月 21, 2018 8:53:03 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished telemetry collection. 25,062 ms
+十一月 21, 2018 8:53:03 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 25,077 ms
+十一月 21, 2018 9:10:00 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Workspace clean-up
+十一月 21, 2018 9:10:00 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Workspace clean-up. 141 ms
+十一月 24, 2018 1:38:54 上午 org.eclipse.jetty.util.log.Log initialized
+信息: Logging initialized @145543ms to org.eclipse.jetty.util.log.JavaUtilLog
+十一月 24, 2018 1:39:01 上午 winstone.Logger logInternal
+信息: Beginning extraction from war file
+十一月 24, 2018 1:39:06 上午 org.eclipse.jetty.server.handler.ContextHandler setContextPath
+警告: Empty contextPath
+十一月 24, 2018 1:39:07 上午 org.eclipse.jetty.server.Server doStart
+信息: jetty-9.4.z-SNAPSHOT; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_144-b01
+十一月 24, 2018 1:39:51 上午 org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+信息: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+十一月 24, 2018 1:39:54 上午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: DefaultSessionIdManager workerName=node0
+十一月 24, 2018 1:39:54 上午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: No SessionScavenger set, using defaults
+十一月 24, 2018 1:39:55 上午 org.eclipse.jetty.server.session.HouseKeeper startScavenging
+信息: node0 Scavenging every 660000ms
+十一月 24, 2018 1:40:19 上午 org.eclipse.jetty.server.handler.ContextHandler doStart
+信息: Started w.@c1b2d2{Jenkins v2.138.3,/,file:///E:/%E8%BF%85%E9%9B%B7%E4%B8%8B%E8%BD%BD/jenkins/war/,AVAILABLE}{E:\迅雷下载\jenkins\war}
+十一月 24, 2018 1:40:19 上午 org.eclipse.jetty.server.AbstractConnector doStart
+信息: Started ServerConnector@1be3395{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+十一月 24, 2018 1:40:19 上午 org.eclipse.jetty.server.Server doStart
+信息: Started @232512ms
+十一月 24, 2018 1:40:19 上午 winstone.Logger logInternal
+信息: Winstone Servlet Engine v4.0 running: controlPort=disabled
+十一月 24, 2018 1:40:28 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+十一月 24, 2018 1:40:28 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+十一月 24, 2018 1:40:41 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+十一月 24, 2018 1:40:42 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+十一月 24, 2018 1:40:42 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+十一月 24, 2018 1:40:45 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+十一月 24, 2018 1:40:47 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 24, 2018 1:40:55 上午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@e9c43a: display name [Root WebApplicationContext]; startup date [Sat Nov 24 01:40:55 CST 2018]; root of context hierarchy
+十一月 24, 2018 1:40:55 上午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@e9c43a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1d876ad
+十一月 24, 2018 1:40:55 上午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1d876ad: defining beans [authenticationManager]; root of factory hierarchy
+十一月 24, 2018 1:40:56 上午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@1849a8d: display name [Root WebApplicationContext]; startup date [Sat Nov 24 01:40:56 CST 2018]; root of context hierarchy
+十一月 24, 2018 1:40:56 上午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@1849a8d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1915ea3
+十一月 24, 2018 1:40:56 上午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1915ea3: defining beans [filter,legacy]; root of factory hierarchy
+十一月 24, 2018 1:40:56 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+十一月 24, 2018 1:40:56 上午 hudson.WebAppMain$3 run
+信息: Jenkins is fully up and running
+十一月 24, 2018 1:41:04 上午 hudson.model.UpdateSite updateData
+信息: Obtained the latest update center data file for UpdateSource default
+十一月 24, 2018 1:41:07 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+十一月 24, 2018 1:41:07 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 20,097 ms
+十一月 24, 2018 3:25:45 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Workspace clean-up
+十一月 24, 2018 3:25:45 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Workspace clean-up. 102 ms
+十一月 24, 2018 5:44:06 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started telemetry collection
+十一月 24, 2018 5:44:09 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished telemetry collection. 2,114 ms
+十一月 24, 2018 2:11:39 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Fingerprint cleanup
+十一月 24, 2018 2:11:39 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Fingerprint cleanup. 92 ms
+十一月 25, 2018 1:40:47 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 25, 2018 1:40:47 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 3 ms
+十一月 25, 2018 5:30:05 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Workspace clean-up
+十一月 25, 2018 5:30:05 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Workspace clean-up. 10 ms
+十一月 25, 2018 12:15:50 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started telemetry collection
+十一月 25, 2018 12:15:51 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished telemetry collection. 1,481 ms
+十一月 25, 2018 12:26:28 下午 javax.jmdns.impl.tasks.state.DNSStateTask run
+警告: Renewer(DESKTOP-RITLUUL.local.).run() exception 
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.TwoStacksPlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at javax.jmdns.impl.JmDNSImpl.send(JmDNSImpl.java:1537)
+	at javax.jmdns.impl.tasks.state.DNSStateTask.run(DNSStateTask.java:131)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+十一月 25, 2018 12:26:28 下午 javax.jmdns.impl.JmDNSImpl __recover
+警告: RECOVERING
+十一月 25, 2018 12:26:28 下午 javax.jmdns.impl.tasks.state.DNSStateTask run
+警告: Canceler(DESKTOP-RITLUUL.local.).run() exception 
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.TwoStacksPlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at javax.jmdns.impl.JmDNSImpl.send(JmDNSImpl.java:1537)
+	at javax.jmdns.impl.tasks.state.DNSStateTask.run(DNSStateTask.java:131)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+十一月 25, 2018 12:26:33 下午 javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForCanceled
+警告: Wait for canceled timed out: DNS: DESKTOP-RITLUUL.local. state: canceling 1 task: null
+十一月 25, 2018 12:26:38 下午 javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForCanceled
+警告: Wait for canceled timed out: DNS: DESKTOP-RITLUUL.local. state: canceling 1 task: null
+十一月 25, 2018 12:26:43 下午 javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForCanceled
+警告: Wait for canceled timed out: DNS: DESKTOP-RITLUUL.local. state: canceling 1 task: null
+十一月 25, 2018 12:26:48 下午 javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForCanceled
+警告: Wait for canceled timed out: DNS: DESKTOP-RITLUUL.local. state: canceling 1 task: null
+十一月 25, 2018 12:26:49 下午 javax.jmdns.impl.JmDNSImpl __recover
+警告: DESKTOP-RITLUUL.local.recover() Could not recover we are Down!
+十一月 25, 2018 2:11:30 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Fingerprint cleanup
+十一月 25, 2018 2:11:30 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Fingerprint cleanup. 5 ms
+十一月 26, 2018 9:03:32 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started telemetry collection
+十一月 26, 2018 9:03:32 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 26, 2018 9:03:32 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Workspace clean-up
+十一月 26, 2018 9:03:35 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Workspace clean-up. 2,468 ms
+十一月 26, 2018 9:03:46 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished telemetry collection. 13,912 ms
+十一月 26, 2018 9:03:48 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 15,084 ms
+十一月 26, 2018 2:11:24 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Fingerprint cleanup
+十一月 26, 2018 2:11:24 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Fingerprint cleanup. 118 ms
+十一月 27, 2018 8:46:13 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Workspace clean-up
+十一月 27, 2018 8:46:13 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started telemetry collection
+十一月 27, 2018 8:46:13 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 27, 2018 8:46:13 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Workspace clean-up. 140 ms
+十一月 27, 2018 8:46:25 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished telemetry collection. 12,232 ms
+十一月 27, 2018 8:46:25 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 12,232 ms
+十一月 27, 2018 9:20:02 上午 org.eclipse.jetty.util.log.Log initialized
+信息: Logging initialized @45093ms to org.eclipse.jetty.util.log.JavaUtilLog
+十一月 27, 2018 9:20:20 上午 winstone.Logger logInternal
+信息: Beginning extraction from war file
+十一月 27, 2018 9:20:31 上午 org.eclipse.jetty.server.handler.ContextHandler setContextPath
+警告: Empty contextPath
+十一月 27, 2018 9:20:35 上午 org.eclipse.jetty.server.Server doStart
+信息: jetty-9.4.z-SNAPSHOT; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_144-b01
+十一月 27, 2018 9:22:03 上午 org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+信息: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+十一月 27, 2018 9:22:13 上午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: DefaultSessionIdManager workerName=node0
+十一月 27, 2018 9:22:13 上午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: No SessionScavenger set, using defaults
+十一月 27, 2018 9:22:15 上午 org.eclipse.jetty.server.session.HouseKeeper startScavenging
+信息: node0 Scavenging every 660000ms
+十一月 27, 2018 9:24:10 上午 org.eclipse.jetty.server.handler.ContextHandler doStart
+信息: Started w.@c1b2d2{Jenkins v2.138.3,/,file:///E:/%E8%BF%85%E9%9B%B7%E4%B8%8B%E8%BD%BD/jenkins/war/,AVAILABLE}{E:\迅雷下载\jenkins\war}
+十一月 27, 2018 9:24:23 上午 org.eclipse.jetty.server.AbstractConnector doStart
+信息: Started ServerConnector@1be3395{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+十一月 27, 2018 9:24:23 上午 org.eclipse.jetty.server.Server doStart
+信息: Started @308482ms
+十一月 27, 2018 9:24:23 上午 winstone.Logger logInternal
+信息: Winstone Servlet Engine v4.0 running: controlPort=disabled
+十一月 27, 2018 9:25:21 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+十一月 27, 2018 9:25:22 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+十一月 27, 2018 9:26:15 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+十一月 27, 2018 9:26:15 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+十一月 27, 2018 9:26:15 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+十一月 27, 2018 9:26:29 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+十一月 27, 2018 9:26:34 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 27, 2018 9:27:10 上午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@6435e8: display name [Root WebApplicationContext]; startup date [Tue Nov 27 09:27:10 CST 2018]; root of context hierarchy
+十一月 27, 2018 9:27:10 上午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@6435e8]: org.springframework.beans.factory.support.DefaultListableBeanFactory@16c5ca2
+十一月 27, 2018 9:27:10 上午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@16c5ca2: defining beans [authenticationManager]; root of factory hierarchy
+十一月 27, 2018 9:27:11 上午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@ceb139: display name [Root WebApplicationContext]; startup date [Tue Nov 27 09:27:11 CST 2018]; root of context hierarchy
+十一月 27, 2018 9:27:11 上午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@ceb139]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1a894d3
+十一月 27, 2018 9:27:11 上午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a894d3: defining beans [filter,legacy]; root of factory hierarchy
+十一月 27, 2018 9:27:12 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+十一月 27, 2018 9:27:13 上午 hudson.WebAppMain$3 run
+信息: Jenkins is fully up and running
+十一月 27, 2018 9:33:56 上午 hudson.model.UpdateSite updateData
+信息: Obtained the latest update center data file for UpdateSource default
+十一月 27, 2018 9:34:16 上午 hudson.model.DownloadService$Downloadable updateNow
+警告: No tool installer metadata found for hudson.tasks.Maven.MavenInstaller
+十一月 27, 2018 9:34:16 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 462,101 ms
+十一月 28, 2018 11:42:08 上午 org.eclipse.jetty.util.log.Log initialized
+信息: Logging initialized @4737ms to org.eclipse.jetty.util.log.JavaUtilLog
+十一月 28, 2018 11:42:09 上午 winstone.Logger logInternal
+信息: Beginning extraction from war file
+十一月 28, 2018 11:42:09 上午 org.eclipse.jetty.server.handler.ContextHandler setContextPath
+警告: Empty contextPath
+十一月 28, 2018 11:42:09 上午 org.eclipse.jetty.server.Server doStart
+信息: jetty-9.4.z-SNAPSHOT; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_144-b01
+十一月 28, 2018 11:42:14 上午 org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+信息: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+十一月 28, 2018 11:42:14 上午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: DefaultSessionIdManager workerName=node0
+十一月 28, 2018 11:42:14 上午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: No SessionScavenger set, using defaults
+十一月 28, 2018 11:42:14 上午 org.eclipse.jetty.server.session.HouseKeeper startScavenging
+信息: node0 Scavenging every 660000ms
+十一月 28, 2018 11:42:26 上午 org.eclipse.jetty.server.handler.ContextHandler doStart
+信息: Started w.@c1b2d2{Jenkins v2.138.3,/,file:///E:/%E8%BF%85%E9%9B%B7%E4%B8%8B%E8%BD%BD/jenkins/war/,AVAILABLE}{E:\迅雷下载\jenkins\war}
+十一月 28, 2018 11:42:26 上午 org.eclipse.jetty.server.AbstractConnector doStart
+信息: Started ServerConnector@1be3395{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+十一月 28, 2018 11:42:26 上午 org.eclipse.jetty.server.Server doStart
+信息: Started @22721ms
+十一月 28, 2018 11:42:26 上午 winstone.Logger logInternal
+信息: Winstone Servlet Engine v4.0 running: controlPort=disabled
+十一月 28, 2018 11:43:08 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+十一月 28, 2018 11:43:12 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+十一月 28, 2018 11:44:44 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+十一月 28, 2018 11:44:45 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+十一月 28, 2018 11:44:45 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+十一月 28, 2018 11:45:03 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+十一月 28, 2018 11:45:19 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 28, 2018 11:45:54 上午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@10c4799: display name [Root WebApplicationContext]; startup date [Wed Nov 28 11:45:54 CST 2018]; root of context hierarchy
+十一月 28, 2018 11:45:54 上午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@10c4799]: org.springframework.beans.factory.support.DefaultListableBeanFactory@d6917f
+十一月 28, 2018 11:45:54 上午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d6917f: defining beans [authenticationManager]; root of factory hierarchy
+十一月 28, 2018 11:45:56 上午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@6d7fff: display name [Root WebApplicationContext]; startup date [Wed Nov 28 11:45:56 CST 2018]; root of context hierarchy
+十一月 28, 2018 11:45:56 上午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@6d7fff]: org.springframework.beans.factory.support.DefaultListableBeanFactory@19aa8b0
+十一月 28, 2018 11:45:56 上午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@19aa8b0: defining beans [filter,legacy]; root of factory hierarchy
+十一月 28, 2018 11:45:58 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+十一月 28, 2018 11:45:59 上午 hudson.WebAppMain$3 run
+信息: Jenkins is fully up and running
+十一月 28, 2018 11:56:22 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Workspace clean-up
+十一月 28, 2018 11:56:22 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Workspace clean-up. 458 ms
